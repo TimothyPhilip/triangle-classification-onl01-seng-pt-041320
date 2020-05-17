@@ -11,6 +11,8 @@ class Triangle
     if side_1.length == side_2.length == side_3.length
       :equilateral
     elsif side_1.length == side_2.length || side_2.length == side_3.length
+      :isosceles
+    else 
       
   end 
   
