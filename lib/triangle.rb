@@ -20,6 +20,7 @@ class Triangle
   def kind 
     conditional
     if side_1 + side_2 > side_3 || side_2 + side_3 > side_1 || side_3 + side_1 > side_2
+      raise TriangleError
   end 
   
   
