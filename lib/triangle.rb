@@ -24,8 +24,6 @@ class Triangle
         rescue TriangleError => error 
           conditional
         end
- #   else
-  #    conditional
     end
   end 
   
