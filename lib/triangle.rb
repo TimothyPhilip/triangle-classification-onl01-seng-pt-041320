@@ -10,6 +10,7 @@ class Triangle
   def kind 
     if side_1.length == side_2.length == side_3.length
       :equilateral
+    elsif 
   end 
   
   
