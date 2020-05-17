@@ -22,10 +22,10 @@ class Triangle
         begin 
           raise TriangleError 
         rescue TriangleError => error 
-          puts error 
+          conditional
         end
-    else
-      conditional
+ #   else
+  #    conditional
     end
   end 
   
